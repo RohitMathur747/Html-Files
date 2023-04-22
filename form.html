@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Using Table</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <fieldset>
+        <legend><h4>Registration Form :-</h4></legend>
+            <table>
+            <form action="">
+                <tr>
+                    <th><label class="abc">First Name : -</label></th>
+                    <td><input class="xyz" type="text" name="fn" id="fn" placeholder="Enter First Name" required></td>
+                </tr>
+                <tr>
+                    <th><label class="abc">Last Name : -</label></th>
+                    <td><input class="xyz" type="text" name="ln" id="ln" placeholder="Enter Last Name" required></td>
+                </tr>
+                <tr>
+                    <th><label class="abc">Email Id : -</label></th>
+                    <td><input class="xyz" type="email" name="email" id="email" placeholder="Enter Email Id" required></td>
+                </tr>
+                <tr>
+                    <th><label class="abc">Password : -</label></th>
+                    <td><input class="xyz" type="password" name="pass" id="pass" required></td>
+                </tr>
+                <tr>
+                    <th><label class="abc">D.O.B : -</label></th>
+                    <td><input class="xyz" type="date" name="date" id="date" required></td>
+                </tr>
+                <tr>
+                    <th><label class="abc">Gender : -</label></th>
+                    <td><input type="radio" name="gen" id="gen" required>Male
+                        <input type="radio" name="gen" id="gen">Female</td>
+                </tr>
+                <tr>
+                    <th><label class="abc">Age : -</label></th>
+                    <td><input class="xyz" type="number" name="age" id="age" required></td>
+                </tr>
+                <tr>
+                    <th><label class="abc">Mobile No : -</label></th>
+                    <td><input class="xyz" type="tel" name="mob" id="mob" required></td>
+                </tr>
+                <tr>
+                    <th><label class="abc">Address : -</label></th>
+                    <td><textarea class="xyz" col="140" rows="6" placeholder="Enter the Address"></textarea></td>
+                </tr>
+                <tr>
+                    <th><label class="abc">Country : -</label></th>
+                    <td><select class="xyz">
+                            <option>Select the Country</option>
+                            <option>India</option>
+                            <option>USA</option>
+                            <option>Germany</option>
+                            <option>France</option>
+                            <option>Russia</option>
+                            <option>Italy</option>
+                            <option>Mexico</option>
+                            <option>Brazil</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <th><label class="abc">Hobbies : -</label></th>
+                    <td><input type="checkbox">Singing
+                        <input type="checkbox">Dancing
+                        <input type="checkbox">Sports
+                        <input type="checkbox">Art & Crafts
+                    </td>
+                </tr>
+                <tr>
+                    <th><label class="abc">Resume : -</label></th>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit" class="btn">Submit</button>
+                        <button type="reset" class="btn">Reset</button>
+                    </td>
+                </tr>
+            </form>
+            </table>
+    </fieldset>
+</body>
+</html>

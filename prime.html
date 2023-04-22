@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function prime(n){
+            let num=+prompt("enter no");
+            if(num<2){
+                console.log("number is not prime no");
+                return;
+            }
+            for(i=2;i<=Math.trunc(num/2);i++){
+                if(num%i===0){
+                    console.log(`${num} is not prime no`);
+                    return;
+                }
+            }
+            console.log(`${num} is prime no`);
+        }
+        prime();
+    </script>
+</body>
+</html>

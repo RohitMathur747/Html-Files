@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let str=prompt("enter string");
+        let flag=true;
+        for(let i=0;i<=Math.trunc(str.length/2);i++){
+            if(str[i]!==str[str.length-i-1]){
+                flag=false;
+                break;
+            }
+        }
+        if(flag){
+            console.log(`${str} is palindrome`);
+        }else{
+            console.log(`${str} is not palindrome`);
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let num=+prompt("enter no");
+        // let a=0;
+        // let b=1;
+        // let flag=0;
+        //     while(a<=num){
+        //         let c=a+b;
+        //         if(a==num){
+        //             flag=1;
+        //             break;
+        //         }
+        //         a=b;
+        //         b=c;
+        //     }
+        //     if(flag){
+        //         console.log(`${num} fibonacci number`);
+        //     }else{
+        //         console.log(`${num} is not fibonacci number`);
+        //     }
+    </script>
+    <!-- <script>
+        function fib(){
+            let num=+prompt("enter no");
+            let a=0;
+            let b=1;
+            if(num===0){
+                console.log(`${num} is fibonacci number`)
+                return;
+            }
+                for(;;){
+                    c=a+b;
+                if(c===num){
+                    console.log(`${num} belongs to fibonacci series`);
+                    break;
+                }
+                if(c>num){
+                    console.log(`${num} is not a fibonacci series`);
+                    break;
+                }
+                a=b;
+                b=c;
+            }
+        }fib();
+    </script> -->
+    <script>
+        function fib(){
+            let start=100;
+            let end=1000;
+            let a=0;
+            let b=1;
+                while(a<=end){
+                    c=a+b;
+                    if(a>=start)
+                    console.log(a);
+                a=b;
+                b=c;
+                }
+        }fib();
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num=+prompt("enter no");
+        let lenght=0;
+        let temp=num;
+        let ats=0;
+        while(num>0){
+            num=Math.trunc(num/10);
+            length++;
+        }
+        while(temp>0){
+            ats=Math.pow(temp%10,length);
+            temp=Math.trunc(temp/10);
+        }
+        if(ats==temp){
+            console.log("armstrong no");
+        }else{
+            console.log("not armstrong no");
+        }
+    </script>
+</body>
+</html>
