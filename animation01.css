@@ -1,0 +1,44 @@
+div{
+    width:200px;
+    height:200px;
+    position: relative;
+    text-align: center;
+    border-radius: 100%;
+    font-size: medium;
+    color: antiquewhite;
+    font-family: cursive;
+    background: radial-gradient(blue,lime,black);
+    animation:example 5s linear 1s infinite normal;
+}
+@keyframes example{
+    0%{
+        top:0;
+        left:0;
+        border-radius: 100%;
+    }
+    20%{
+        top:0;
+        left:600px;
+        border-radius: 100%;
+    }
+    40%{
+        top:250px;
+        left:800px;
+        border-radius: 100%;
+    }
+    60%{
+        top:500px;
+        left:600px;
+        border-radius: 100%;
+    }
+    80%{
+        top:250px;
+        left:300px;
+        border-radius: 100%;
+    }
+    100%{
+        top:500px;
+        left:0;
+        border-radius: 100%;
+    }
+}

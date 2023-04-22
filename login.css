@@ -1,0 +1,51 @@
+body{
+    background-image: url("../images/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid wheat;
+    box-shadow: 5px grey;
+    background-position: center; 
+}
+
+.login_box{
+    margin:30px 20px 30px 40px; 
+    width:400px;
+    height:550px;
+    background-color: white;
+    padding: 20px 30px 30px 40px;
+}
+
+.abc{
+    text-align: left;
+    padding:10px;
+}
+.xyz{
+    width:300px;
+    height:50px;
+    text-align: left;
+}
+.gap{
+    margin-left: 90px;
+}
+.btn{
+    padding:20px;
+    margin: 30px 5px 40px 5px;
+    width:300px;
+    height:50px;
+    color: white;
+    background-color: purple;
+}
+.fab{
+    padding:10px;
+}
+.btn2{
+    margin: 30px 20px 30px 20px;
+    padding: 0px 15px 0px 10px;
+}
+.fab{
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    color:black;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

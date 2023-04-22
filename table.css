@@ -1,0 +1,22 @@
+
+table,th,td,tr{
+    padding: 30px 20px 40px 20px;
+    border: 2px solid;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    width:auto;
+}
+.abc{
+    background:radial-gradient(red,white,lightyellow);
+    text-align: center;
+    font-family: cursive;
+}
+th{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:linear-gradient(green,white,yellow);
+}
+td{
+    background:repeating-linear-gradient(skyblue,white,lightgrey);
+
+}

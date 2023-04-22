@@ -1,0 +1,25 @@
+.box_style{
+    margin-top: 0px;
+    border:5px solid red;
+    padding:30px;
+    width:20px;
+    margin-right: 20px;
+    background-color: aqua;
+    color:white; 
+}
+#horz{
+    margin-left: 30%;
+    display:flex;
+    margin-right: 30px;
+}
+#line{
+    margin-left:625px;
+}
+#curve1{
+    margin-left: 515px;
+    margin-top: -50px;
+}
+#curve2{
+    margin-left: 400px;
+    margin-top: -195px;
+}

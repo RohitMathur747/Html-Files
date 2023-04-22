@@ -1,0 +1,49 @@
+#main{    
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 40px auto;
+    box-shadow: 0 0 10px black;
+    position:relative;
+    overflow: hidden;    
+}
+
+#main> img{
+    width:400px;
+    height: 300px;
+    border-radius: 20px;
+    margin: auto;
+    transition: all 2s linear 0s;
+}
+
+#main>#details{
+    position: absolute;
+    top:300px;
+    left:0px;
+    background-color: red;
+    color:white;
+    width: 400px;
+    border-radius: inherit;
+    transition: all 2s linear 0s;
+}
+
+#main>#details>ul>li{
+    border-bottom: 2px solid ;
+    list-style-type: none;
+    text-align: center;
+    width:300px;
+    margin-left:10px;
+}
+
+#main:hover>img{
+    cursor: pointer;
+    text-align: center;
+    width:400px;
+    transform: translateY(-90px);
+}
+
+#main:hover>#details{
+    cursor:pointer;
+    transform: translateY(-90px);
+}
+

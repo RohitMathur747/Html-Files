@@ -1,0 +1,19 @@
+table,th,tr,td
+{
+    padding:20px;
+    border: 2px solid;
+    border-collapse: collapse;
+    margin:auto;
+    text-align: center;
+}
+th
+{
+    background: linear-gradient(45deg,skyblue,white,lightgrey);
+    font-family: cursive;
+    font-size: large;
+}
+td
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}

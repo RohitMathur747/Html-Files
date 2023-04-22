@@ -1,0 +1,37 @@
+body{
+    background-image: url(../images/bg.jpg);
+    color:white;
+    text-align: left;
+}
+.title-head{
+    color:white;
+    text-align: center;
+}
+fieldset{
+    background:rgba(237, 151, 85,0.4);
+    padding:20px 40px 20px 40px;
+    margin-bottom: 40px;
+}
+legend{
+    padding-top: 20px;
+    background-color: brown;
+    padding:10px;
+    border: 2px solid white;
+    border-radius: 0px 20px;
+    color:white;
+    position: sticky;
+    top:0;
+}
+.gap{
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+#extra-space{
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+}
+.space{
+    margin:20px 40px 20px 35px;
+    padding:5px 40px 10px 40px; 
+}

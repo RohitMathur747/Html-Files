@@ -1,0 +1,21 @@
+body{
+    background-color: darkslateblue;
+    color:white;
+}
+table,th,td{
+    margin:auto;
+    font-size: 20px;
+    padding: 20px;
+}
+.xyz{
+    width:150px;
+}
+.pqr{
+    width:130px;
+}
+.mno{
+    width:40px;
+}
+#www{
+    margin-left: 60px;
+}

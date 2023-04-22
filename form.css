@@ -1,0 +1,36 @@
+fieldset{
+    background: linear-gradient(skyblue,white,lightgrey);
+}
+legend{
+    background-color:brown;
+    color:white;
+    border-radius: 10px 0px;
+    padding: 10px;
+    text-align: left;
+    position: sticky;
+    top:0;
+}
+table{
+    margin:auto;
+}
+input:hover{
+    background-color: aquamarine;
+    color:blue;
+}
+.abc{
+    font-size: 20px;
+    font-family: cursive;
+    width:100px;
+}
+.xyz{
+    width:350px;
+    height:40px;
+}
+.btn{
+    color:antiquewhite;
+    background-color: blue;
+    font-size: 20px;
+    padding:10px;
+    align-items: center;
+}
+

@@ -1,0 +1,136 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #5c5c5c;
+    font-size: 15px;
+}
+
+header{
+    padding-top:30px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(../images/krunch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.container{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+    display:flex;
+    color:white;
+}
+.menu>a{
+    top:0px;
+    position: sticky;
+    text-decoration: none;
+    margin-right: 20px;
+    align-content: space-between;
+    color: white;
+    display: inline;
+}
+
+.middle_text>h1{
+    text-align: center;
+    color: white;
+    font-size: 58px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    font-family: Nunito, sans-serif;
+}
+
+.middle_text>p{
+    font-size: 18px;
+    text-align: center;
+    line-height: 28px;
+    color: #fff;
+    text-shadow: 0 1px 0 #000;
+}
+
+.button_style{
+    text-align: center;
+    padding-bottom: 200px;   
+}
+
+#btn1{
+    background-color:#4d8cf5;
+    border-color: hsl(218, 89%, 63%);
+    border-radius:5px;
+    color:white;
+    border-color: #4d8cf5;
+    margin: 20px;
+    padding: 20px 30px;
+}
+
+#btn2{
+    background-color: transparent;
+    color: #fff;
+    border-color: #4d8cf5;
+    border-radius:5px;
+    margin: 20px;
+    padding: 20px 30px;
+}
+
+.section{
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.middle_content_wrapper{
+    padding: 60px 15px 20px 15px;
+    display: block;
+    width: 75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title{    
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.title>h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Nunito, sans-serif;
+    color: #333;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.line{
+    display: block;
+    width: 70px;
+    height: 2px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #4d8cf5;
+}
+
+.about_main{
+    display: flex;
+    padding-top: 80px;
+}
+
+.about_main>p{
+    text-align: left;
+}
+
+.photo_section{
+    display:flex;
+    max-width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+.section{
+    max-width:25%;
+    width:300px;
+    height:250px;    
+}
+
